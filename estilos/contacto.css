@@ -1,0 +1,163 @@
+main p {
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+main section {
+    /*background-color:gray;*/
+    border-radius: 3px;
+    width: 100rem;
+    margin: 3rem auto;
+}
+
+main section h2 {
+    text-align: center;
+}
+
+.formulario {
+    background-color: grey;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario fieldset {
+    border: none;
+}
+
+.formulario legend {
+    text-align: center;
+    color: #ebaa07;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+
+}
+
+.container-campos {
+    width: 100%;
+
+    height: 70rem;
+    position: relative;
+}
+
+.campo1 {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+
+    padding: 3rem;
+    width: 40.5rem;
+}
+
+.campo1 label,
+.campo2 label {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-right: 2rem;
+}
+
+.campo1 input,
+.campo2 input {
+    padding: 0.8rem;
+    width: 25rem;
+    font-size: 1.8rem;
+    border-radius: 4px;
+}
+
+.campo2 {
+    position: absolute;
+    top: 2rem;
+    left: 50rem;
+
+    padding: 3rem;
+    width: 40.5rem;
+}
+
+.campo3 {
+    position: absolute;
+    top: 15rem;
+    left: 3rem;
+
+    padding: 3rem;
+    width: 45rem;
+}
+
+.campo3 label,
+.campo3 p {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-right: 2rem;
+}
+
+
+.campo4 {
+    position: absolute;
+    top: 14.2rem;
+    left: 50rem;
+
+    padding: 3rem;
+    width: 43rem;
+}
+
+.campo4 label {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.campo4 select {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    width: 35rem;
+    font-size: 1.8rem;
+    border-radius: 4px;
+}
+
+.campo5 {
+    position: absolute;
+    top: 32rem;
+    left: 3rem;
+    padding: 3rem;
+    width: 100%;
+}
+
+.campo5 label {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.campo6 {
+    position: absolute;
+    bottom: 0;
+    padding: 3rem;
+    width: 100%;
+
+}
+
+.campo6 textarea {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    height: 25rem;
+    border-radius: 4px;
+
+}
+
+.submit {
+    width: 100%;
+}
+
+.submit input {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.submit input:point

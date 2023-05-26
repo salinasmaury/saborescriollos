@@ -1,0 +1,38 @@
+main {
+    width: 120rem;
+}
+
+main h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+main p {
+    max-width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+}
+main section .container-menu{
+    width: 120rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+main section .container-menu .container-item{
+    
+   width:37.5rem ;
+    
+}
+main section .container-img{
+   
+    margin: 1rem;
+
+}
+main section .container-menu .container-item .container-img img{
+    max-width: 100%;
+    margin: 0;
+    border-radius: 4px;
+}

@@ -1,0 +1,125 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    width: 120rem;
+    
+}
+header{
+    margin-bottom: 2rem;
+}
+ header .titulo{
+    text-align: center;
+    font-size: 3.8rem;
+
+}
+.eslogan{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.nav-bg,.footer-bg{
+    background-color: #ebaa07;
+    margin-bottom: 2.5rem;
+}
+nav {
+    margin: 1rem auto;
+  }
+nav li {
+    display: inline;
+    margin-right: 10rem;
+}
+nav li:first-child{
+    margin-left: 10rem;
+}
+nav li a {
+    padding: 1rem;
+    font-size: 1.8rem;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+ }
+ nav li a:hover{
+    color:white;
+    background-color: black;
+ }
+
+main{
+    margin: 0 auto;
+}
+main .presentacion {
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.container-galery .container-img{
+    margin: 0 ;
+    display: inline-block;
+    width:393px;
+    position: relative;
+}
+.container-galery .container-img img{
+    max-width: 100%;
+    }
+.container-galery .container-img span{
+    color:black ;
+    font-weight: bold;
+    background-color:rgba(235,170,7,0.8);
+    display: none;
+    padding: 2rem;
+    border-radius: 5px;
+    font-size: 2rem;
+    position: absolute;
+    z-index: 1;
+    top:40%;
+    left: 10%;
+    
+}
+.container-galery .container-img:hover span{
+    display: inline-block;
+}
+
+main  .container-iconos div{
+    display: inline-block;
+    width: 393px;
+}
+main section h3{
+    text-align:center;
+    font-size: 5rem;
+    margin: 3rem;
+}
+main section div h4{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+main .container-iconos div img{
+    margin: 2rem 10rem;
+    width: 200px;
+    max-width: 100%;
+}
+footer{
+    width: 120rem;
+    margin: 3rem auto;
+}
+footer a{
+    display: inline-block;
+    padding: 2rem;
+}
+footer img {
+    max-width: 100%;
+    width: 35px;
+    margin-left: 10rem;
+   
+}
