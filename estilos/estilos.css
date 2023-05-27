@@ -30,12 +30,14 @@ body {
     margin-top: 0;
     margin-bottom: .5rem;
 }
+
 @media (min-width: 994px) {
-    .navbar{
-        margin-left:auto;
+    .navbar {
+        margin-left: auto;
         margin-right: auto;
         max-width: 110rem;
     }
+
     .nav-bg ul {
         margin-left: 09rem;
         display: flex;
@@ -61,19 +63,20 @@ body {
 header {
     margin-bottom: 1rem;
     width: 100%;
-   }
+}
 
 header .titulo {
     text-align: center;
     font-size: 2.8rem;
-    
+
 }
+
 .eslogan {
     text-align: center;
     font-size: 1.5rem;
 }
 
-main {
+.main {
     margin: 0 auto;
     max-width: 110rem;
 }
@@ -83,15 +86,14 @@ main .presentacion {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
+
 /* presentacion en tamaño escritorio 
 main .presentacion {
     line-height: 2.5rem;
     margin-bottom: 1.5rem;
 }
 */
-.container-galery .container-img {
-  
-}
+.container-galery .container-img {}
 
 .container-galery .container-img img {
     max-width: 100%;
