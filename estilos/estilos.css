@@ -90,10 +90,7 @@ main .presentacion {
 }
 */
 .container-galery .container-img {
-    margin: 0;
-    display: inline-block;
-    width: 393px;
-    position: relative;
+  
 }
 
 .container-galery .container-img img {
