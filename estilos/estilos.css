@@ -2,7 +2,7 @@
     --color-primario: #ebaa07;
     --blanco: #fff;
     --negro: #000;
-    --color-fondo-hover:#aaa;
+    --color-fondo-hover: #aaa;
 
 }
 
@@ -53,7 +53,7 @@ header {
 header .titulo {
     text-align: center;
     font-size: 3.8rem;
-    
+
 }
 
 .eslogan {
@@ -78,7 +78,16 @@ header .titulo {
     line-height: 2.5rem;
     margin-bottom: 1.5rem;
 }
-/*Estilos para index.html*/ /*
+
+.home-main-lyout section div img {
+    width: 150px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*
+/*Estilos para index.html*/
+/*
 .home-main-lyout{
     display: grid;
     grid-template-columns: 0.8fr 1.2fr;
@@ -105,11 +114,6 @@ header .titulo {
     font-weight: bold;
 }
 
-*/.home-main-lyout  section div img {
-    width: 150px;
-    max-width: 100%;
-    margin: 0 auto;
-}/*
 .cualidades-container {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -138,17 +142,18 @@ header .titulo {
     grid-area: cualidad-descripcion;
     margin: 1rem;
 }*/
-.footer i{
+.footer i {
     color: white;
     font-size: 3rem;
 }
-@media (min-width: 994px) {
+
+@media (min-width: 992px) {
     .navbar {
         margin-left: auto;
         margin-right: auto;
         max-width: 110rem;
     }
-    
+
     .nav-bg ul {
         margin-left: 09rem;
         display: flex;
@@ -158,11 +163,15 @@ header .titulo {
         max-width: 120rem;
     }
 }
-@media (min-width:768) {
-    
-    .container,
-    .row {
-        max-width: 100%;
+
+@media (min-width:768px) {
+
+    .home-main-lyout .carrusel,
+    .home-main-lyout section {
+        max-width: 90%;
+        margin: 0 auto;
+
     }
-    
+
+
 }
