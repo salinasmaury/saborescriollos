@@ -2,7 +2,7 @@
     --color-primario: #ebaa07;
     --blanco: #fff;
     --negro: #000;
-    --color-fondo-hover: #aaa;
+    --color-fondo-hover: #aaaaaa23;
 
 }
 
@@ -59,11 +59,16 @@ header .titulo {
 .eslogan {
     text-align: center;
     font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
+.home-main-lyout,
 .main {
     margin: 0 auto;
-    max-width: 110rem;
+    max-width: 100%;
+    width: 120rem;
+
 }
 
 /*presentacion en tamaño mobile
@@ -77,6 +82,9 @@ header .titulo {
 .main .presentacion {
     line-height: 2.5rem;
     margin-bottom: 1.5rem;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .home-main-lyout section div img {
@@ -147,6 +155,21 @@ header .titulo {
     font-size: 3rem;
 }
 
+/* ESTILOS DE servicio.html */
+.servicios-main-lyout {
+    max-width: 100%;
+
+
+}
+.servicios-main-lyout section {
+    margin: 0 auto 3rem auto;
+
+
+}
+.servicios-main-lyout div img {
+    max-width: 100%;
+}
+
 @media (min-width: 992px) {
     .navbar {
         margin-left: auto;
@@ -165,13 +188,85 @@ header .titulo {
 }
 
 @media (min-width:768px) {
+    .home-main-lyout {
+        max-width: 100%;
+    }
 
-    .home-main-lyout .carrusel,
-    .home-main-lyout section {
+    .servicios-main-lyout,
+    .home-main-lyout,
+    .presentacion {
         max-width: 90%;
         margin: 0 auto;
 
     }
 
+    .servicios-main-lyout section {
+        position: relative;
+        margin: 0 auto 3rem auto;;
+    }
 
+    .servicios-main-lyout section:hover {
+        border: solid #0d6dfd3a 2px;
+        background-color: var(--color-fondo-hover);
+    }
+
+    .servicios-main-lyout section .btn {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        position: absolute;
+        right: 0.5rem;
+        bottom: -3.5rem;
+
+    }}
+
+
+
+@media (min-width: 576px) {
+    .home-main-lyout {
+        max-width: 100%;
+    }
+
+    .home-main-lyout .carrusel,
+    .home-main-lyout section {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    
+
+    .servicios-main-lyout section .btn {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        display: block;
+        
+    }
+}
+@media (max-width: 576px) {
+    .home-main-lyout {
+        max-width: 100%;
+        
+    }
+
+    .home-main-lyout .carrusel,
+    .home-main-lyout section {
+        max-width: 90%;
+        margin: 0 auto 3rem auto;
+    }
+
+    .servicios-main-lyout section {
+
+        margin: 2rem;
+    }
+
+    .servicios-main-lyout section:hover {
+        border: solid #0d6dfd3a 2px;
+        background-color: var(--color-fondo-hover);
+    }
+
+    .servicios-main-lyout section .btn {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        display: block;
+
+    }
 }
