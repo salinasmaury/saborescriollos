@@ -12,39 +12,39 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Alkalami&family=Bungee+Spice&family=EB+Garamond&family=Krub:wght@400;700&family=Oswald:wght@300&family=Roboto+Mono:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="stylesheet" href="./estilos/css/styles.css">
     <title>Sabores Criollos</title>
 </head>
 
 <body>
 
-    <header>
-        <div class="nav-bg">
-            <nav class="navbar navbar-expand-lg  nav-bg">
+    <header class="header">
+        <div class="barra">
+            <nav class="barra navbar navbar-expand-lg  nav-bg">
                 <div class="container-fluid nav-bg">
-                    <a class="navbar-brand" href="#">SC</a>
+                    <a class="barra__enlace navbar-brand " href="#"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/index.html">Home</a>
+                        <ul class="w-100  row navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/index.html">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/html/servicios.html">Servicios</a>
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/html/servicios.html">Servicios</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/html/productos.html">Productos</a>
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/html/productos.html">Productos</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/html/conocenos.html">Conocenos</a>
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/html/conocenos.html">Conocenos</a>
                             </li>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/html/contacto.html">Contacto</a>
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/html/contacto.html">Contacto</a>
                             </li>
                             </li>
                         </ul>
@@ -52,21 +52,21 @@
                 </div>
             </nav>
         </div>
-        <h1 class="titulo">Sabores Criollos</h1>
-        <p class="eslogan">Descubre la auténtica cocina criolla en cada bocado.</p>
+        <h1 class="header__titulo">Sabores Criollos</h1>
+        <p class="header__eslogan">Descubre la auténtica cocina criolla en cada bocado.</p>
 
     </header>
-    <main class="mb-4 main home-main-lyout container-fluid">
-        <div class="row">
-            <p class="presentacion presentacion-lyout col">Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Fugit ut corporis, distinctio
-                ullam quam debitis
-                excepturi vel eos in repellat modi numquam voluptas dolorum ducimus, iste temporibus soluta officiis
-                nihil
-                magni nam? Explicabo inventore perferendis quo consectetur cumque nemo, harum quos quae ipsum sapiente
-                modi?
-                Nisi dolorum amet illo sed?</p>
-        </div>
+    <main class="mb-4 main presentacion container-fluid">
+        <p class="presentacion presentacion__texto col">Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Fugit ut corporis, distinctio
+            ullam quam debitis
+            excepturi vel eos in repellat modi numquam voluptas dolorum ducimus, iste temporibus soluta officiis
+            nihil
+            magni nam? Explicabo inventore perferendis quo consectetur cumque nemo, harum quos quae ipsum sapiente
+            modi?
+            Nisi dolorum amet illo sed?
+        </p>
+
         <div class="row">
             <div id="carouselExampleCaptions" class="carrusel carousel slide  col-lg-5">
                 <div class="carousel-indicators">
@@ -111,60 +111,57 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <!--
-                <div class="row container-fluid">
-                    <div class=" col col-sm-12 col-xs-6 col-lg-4 col-md-4"> <img src="img/lohacemos.jpg" alt="asado argentino">
-                        <span>Lo hacemos por ti</span>
-                    </div>
-                    <div class="col col-sm-12 col-xs-6 col-lg-4 col-md-4"> <img src="img/asadogurmet.jpg" alt="Servio de eventos">
-                        <span>Delicias nacionales</span>
-                    </div>
-                    <div class="col col-sm-12 col-xs-12 col-lg-4 col-md-4"> <img src="img/variedad.jpg" alt="Comidas argentinas">
-                        <span>Exelencia en la cocina</span>
-                    </div>
-                </div>
-            -->
-            <section class="col-lg-7">
+            <section class="col-lg-7 cualidad">
                 <h3 class="h1 text-center">Conoce mas de nosotros</h3>
-                <div class="cualidades-container row">
-                    <h4 class="cualidad  col-lg-12 text-center h3">Excelencia</h4>
-                    <img src="img/menu.png" alt="Utencilios" class="cualidad-icono col-sm-12 col-md-4 col-lg-4">
-                    <p class="cualidad-descripcion col-sm-12 col-md-8 col-lg-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloribus provident molestias
-                        voluptatibus aperiam saepe. Est laborum blanditiis impedit aperiam rem?</p>
+                <div class="cualidad row">
+                    <h4 class="cualidad__titulo col-lg-12 text-center h3">Excelencia</h4>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <img src="img/menu.png" alt="Utencilios" class="cualidad__img mw-100">
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                        <p class="presentacion__texto ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Doloribus provident
+                            molestias voluptatibus aperiam saepe. Est laborum blanditiis impedit aperiam rem?</p>
+                    </div>
                 </div>
-                <div class="cualidades-container row">
-                    <h4 class="cualidad col-lg-12 text-center h3">Planeacion</h4>
-                    <img src="img/calendario.png" alt="calendario" class="cualidad-icono col-sm-12 col-md-4 col-lg-4">
-                    <p class="cualidad-descripcion col-sm-12 col-md-8 col-lg-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloribus provident molestias
-                        voluptatibus aperiam saepe. Est laborum blanditiis impedit aperiam rem?</p>
 
-                </div>
-                <div class="cualidades-container row">
-                    <h4 class="cualidad col-lg-12 text-center h3">Fiestas</h4>
-                    <img src="img/party.png" alt="" class="cualidad-icono col-sm-12 col-md-4 col-lg-4">
-                    <p class="cualidad-descripcion col-sm-12 col-md-8 col-lg-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloribus provident molestias
-                        voluptatibus aperiam saepe. Est laborum blanditiis impedit aperiam rem?</p>
+                <div class="cualidad row">
+                    <h4 class="cualidad__titulo col-lg-12 text-center h3">Planeacion</h4>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
 
+                        <img src="img/calendario.png" alt="calendario" class="cualidad__img mw-100">
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+
+                        <p class="presentacion__texto ">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Doloribus provident molestias
+                            voluptatibus aperiam saepe. Est laborum blanditiis impedit aperiam rem?
+                        </p>
+                    </div>
                 </div>
-            </section>
+
+
+                <div class="cualidad row">
+                    <h4 class="cualidad__titulo col-12 text-center h3">Fiestas</h4>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <img src="img/party.png" alt="" class="cualidad__img mw-100">
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8">
+                    <p class="presentacion__texto">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Doloribus provident molestias
+                        voluptatibus aperiam saepe. Est laborum blanditiis impedit aperiam rem?
+                    </p>
+                    </div>
+                </div>
+
+        </div>
+        </section>
+        </div>
         </div>
     </main>
 
-    <!--<div class="footer-bg">
-        <footer>
-            <img src="img/copyrigth.png" alt="copyrigth">
-            <span>Todos los derechos reservados</span>
-            <a href="#"><img src="img/facebook.png" alt="facebook"></a>
-            <a href="#"><img src="img/instagram.png" alt="instagram"></a>
-            <a href="#"><img src="img/github.png" alt="github"></a>
-            <a href="#"><img src="img/whatsapp-logo_icon-icons.com_57054.png" alt="whatsapp"></a>
-
-        </footer>
-    </div>
--->
     <footer class="footer container-fluid">
         <div class="row p5 bg-secondary text-white">
             <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">

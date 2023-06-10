@@ -1,0 +1,84 @@
+@import 'variables';
+
+$color-primario: var(--color-primario);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: $color-fondo;
+}
+
+.barra {
+    padding: 0;
+    background-color: #ebaa07;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    
+    &__enlace {
+        color: $negro;
+    }
+    
+    &__enlace:hover {
+        background-color: var(--negro);
+        color: var(--blanco);
+        height: 100%;
+        border-radius: 3px;
+    }
+    .navbar{
+        max-width: 120rem;
+        margin: 0 auto;
+    }
+    
+}
+
+.header{
+    text-align: center;
+    margin: 0 auto 4rem;
+
+    &__titulo{
+        font-size: 4rem;
+    }
+
+    .eslogan {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 120rem;
+    
+    
+    
+}
+
+.presentacion {
+    
+    &__texto {
+        color:$cltexto;
+        line-height: 2.5rem;
+        margin-bottom: 1.5rem;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@import 'index';
+
