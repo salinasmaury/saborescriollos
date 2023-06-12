@@ -1,0 +1,28 @@
+.mainservicios {
+    max-width: 100%;
+
+    .servicios {
+       
+        
+        margin: 0 auto 5rem auto;
+        
+
+      /*  &__boton {
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            position: absolute;
+            right: 0.5rem;
+            bottom: -3.5rem;
+        }*/
+
+        &__titulo{
+            padding: 1rem ;
+        }
+    }
+    
+    .servicios:hover {
+        border: solid #0d6dfd3a 2px;
+        background-color: var(--color-fondo-hover);
+    }
+
+}

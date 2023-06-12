@@ -1,23 +1,114 @@
-@media (max-width: 992px) {
-.presentacion{
-    background-color: red;
-    max-width: 95%;
-    .cualidad__titulo {
-            padding-top: 3rem;
-        }}
-}
+@media (min-width: 993px) {
+    .servicios {
+        position: relative;
+        &__boton {
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            position: absolute;
+            right: 0.5rem;
+            bottom: -3.5rem;
+        }
 
-@media (max-width: 768px) {
-   .presentacion{
-    background-color: blue;
 
-    .cualidad__titulo{
-        padding-top: 3rem;
+    }}
+
+    @media (max-width: 992px) {
+        .presentacion {
+            background-color: red;
+            max-width: 95%;
+
+            .cualidad__titulo {
+                padding-top: 3rem;
+            }
+        }
+
+        .servicios {
+            margin-bottom: 6rem;
+
+            &__titulo {
+                font-size: 1.9rem;
+            }
+
+            &__texto {
+                width: 95%;
+                margin: 1rem auto;
+            }
+
+            &__boton {
+                width: 95%;
+                padding: 1rem 2rem;
+                font-size: 1.5rem;
+                display: block;
+                margin:1rem auto;
+            }
+
+        }
     }
-    .cualidad {
-        &__contenedorimg{
-        display: flex;
-        justify-content: center;
-        margin: 2rem;
-    }}}
-}
+
+    @media (max-width: 768px) {
+        .presentacion {
+            background-color: blue;
+
+            .cualidad__titulo {
+                padding-top: 3rem;
+            }
+
+            .cualidad {
+                &__contenedorimg {
+                    display: flex;
+                    justify-content: center;
+                    margin: 2rem;
+                }
+            }
+        }
+
+        .servicios {
+            &__titulo {
+                font-size: 1.9rem;
+            }
+
+            &__texto {
+                width: 90%;
+                margin: 1rem auto;
+            }
+
+            &__boton {
+                margin: 2rem auto;
+                position: static;
+                width: 90%;
+                padding: 1rem 2rem;
+                font-size: 1.5rem;
+                display: block;
+            }
+        }
+
+    }
+
+    @media (max-width: 576px) {
+        .servicios {
+            background-color: red;
+
+            &__titulo {
+                font-size: 1.9rem;
+            }
+
+            &__texto {
+                width: 90%;
+                margin: 1rem auto;
+            }
+
+            .container-botom {
+                width: 90%;
+                position: static;
+                margin: 1rem auto
+            }
+
+            &__boton {
+                position: static;
+                width: 100%;
+                padding: 1rem 2rem;
+                font-size: 1.5rem;
+                display: block;
+            }
+        }
+    }

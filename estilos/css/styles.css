@@ -79,12 +79,35 @@ body {
   color: var(--negro);
   margin: auto auto; }
 
+@media (min-width: 993px) {
+  .servicios {
+    position: relative; }
+    .servicios__boton {
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      position: absolute;
+      right: 0.5rem;
+      bottom: -3.5rem; } }
+
 @media (max-width: 992px) {
   .presentacion {
     background-color: red;
     max-width: 95%; }
     .presentacion .cualidad__titulo {
-      padding-top: 3rem; } }
+      padding-top: 3rem; }
+  .servicios {
+    margin-bottom: 6rem; }
+    .servicios__titulo {
+      font-size: 1.9rem; }
+    .servicios__texto {
+      width: 95%;
+      margin: 1rem auto; }
+    .servicios__boton {
+      width: 95%;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      display: block;
+      margin: 1rem auto; } }
 
 @media (max-width: 768px) {
   .presentacion {
@@ -94,4 +117,52 @@ body {
     .presentacion .cualidad__contenedorimg {
       display: flex;
       justify-content: center;
-      margin: 2rem; } }
+      margin: 2rem; }
+  .servicios__titulo {
+    font-size: 1.9rem; }
+  .servicios__texto {
+    width: 90%;
+    margin: 1rem auto; }
+  .servicios__boton {
+    margin: 2rem auto;
+    position: static;
+    width: 90%;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    display: block; } }
+
+@media (max-width: 576px) {
+  .servicios {
+    background-color: red; }
+    .servicios__titulo {
+      font-size: 1.9rem; }
+    .servicios__texto {
+      width: 90%;
+      margin: 1rem auto; }
+    .servicios .container-botom {
+      width: 90%;
+      position: static;
+      margin: 1rem auto; }
+    .servicios__boton {
+      position: static;
+      width: 100%;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      display: block; } }
+
+.mainservicios {
+  max-width: 100%; }
+  .mainservicios .servicios {
+    margin: 0 auto 5rem auto;
+    /*  &__boton {
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            position: absolute;
+            right: 0.5rem;
+            bottom: -3.5rem;
+        }*/ }
+    .mainservicios .servicios__titulo {
+      padding: 1rem; }
+  .mainservicios .servicios:hover {
+    border: solid #0d6dfd3a 2px;
+    background-color: var(--color-fondo-hover); }
