@@ -60,7 +60,6 @@ body {
   padding-bottom: 2rem; }
 
 .presentacion .cualidad {
-  background-color: #ebaa07;
   margin-bottom: 2rem; }
   .presentacion .cualidad__titulo {
     font-size: 3rem;
@@ -91,7 +90,6 @@ body {
 
 @media (max-width: 992px) {
   .presentacion {
-    background-color: red;
     max-width: 95%; }
     .presentacion .cualidad__titulo {
       padding-top: 3rem; }
@@ -110,14 +108,12 @@ body {
       margin: 1rem auto; } }
 
 @media (max-width: 768px) {
-  .presentacion {
-    background-color: blue; }
-    .presentacion .cualidad__titulo {
-      padding-top: 3rem; }
-    .presentacion .cualidad__contenedorimg {
-      display: flex;
-      justify-content: center;
-      margin: 2rem; }
+  .presentacion .cualidad__titulo {
+    padding-top: 3rem; }
+  .presentacion .cualidad__contenedorimg {
+    display: flex;
+    justify-content: center;
+    margin: 2rem; }
   .servicios__titulo {
     font-size: 1.9rem; }
   .servicios__texto {
@@ -132,23 +128,21 @@ body {
     display: block; } }
 
 @media (max-width: 576px) {
-  .servicios {
-    background-color: red; }
-    .servicios__titulo {
-      font-size: 1.9rem; }
-    .servicios__texto {
-      width: 90%;
-      margin: 1rem auto; }
-    .servicios .container-botom {
-      width: 90%;
-      position: static;
-      margin: 1rem auto; }
-    .servicios__boton {
-      position: static;
-      width: 100%;
-      padding: 1rem 2rem;
-      font-size: 1.5rem;
-      display: block; } }
+  .servicios__titulo {
+    font-size: 1.9rem; }
+  .servicios__texto {
+    width: 90%;
+    margin: 1rem auto; }
+  .servicios .container-botom {
+    width: 90%;
+    position: static;
+    margin: 1rem auto; }
+  .servicios__boton {
+    position: static;
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    display: block; } }
 
 .mainservicios {
   max-width: 100%; }
