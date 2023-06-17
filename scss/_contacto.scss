@@ -1,0 +1,63 @@
+.maincontacto{
+&__textopresentacion{
+    padding: 2rem 1rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+.formulario {
+
+    margin-bottom: 3rem;
+
+    &__titulo {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    &__legend {
+        text-align: center;
+    }
+
+    &__campo {
+
+        margin-bottom: 2rem;
+    }
+
+    &__label {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+    &__input {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    &__texto {
+        font-size: 2rem;
+    }
+
+    &__texto-bold {
+        font-weight: bold;
+    }
+
+    &__select {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    &__textarea {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    &__boton{
+        width: 100%;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        display: block;
+        margin: 1rem auto;
+    }
+}}

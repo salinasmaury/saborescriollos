@@ -5,85 +5,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../estilos/bootstrap/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Alkalami&family=Bungee+Spice&family=EB+Garamond&family=Krub:wght@400;700&family=Oswald:wght@300&family=Roboto+Mono:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="estilos/estilos.css">
-    <title>Sabores Criollos</title>
+    <link rel="stylesheet" href="../estilos/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <linkrel="stylesheet"href="https: //cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Servicio - Sabores Criollos</title>
 </head>
 
 <body>
-    <header>
-        <div class="nav-bg">
-            <nav class="container">
-                <ul>
-                    <li><a href="..//index.html">Home</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="conocenos.html">Conocenos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+    <header class="header">
+        <div class="barra">
+            <nav class="barra navbar navbar-expand-lg  nav-bg">
+                <div class="container-fluid nav-bg">
+                    <a class="barra__enlace navbar-brand " href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="w-100  row navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/html/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/html/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/html/conocenos.html">Conocenos</a>
+                            </li>
+                            </li>
+                            <li class="nav-item col-lg text-center">
+                                <a class="barra__enlace nav-link" href="/html/contacto.html">Contacto</a>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
-        <h1 class="titulo">Sabores Criollos</h1>
-        <p class="eslogan">Descubre la auténtica cocina criolla en cada bocado.</p>
+        <h1 class="header__titulo animate__animated animate__fadeInTopLeft"">Contacto</h1>
+            <p class=" header__eslogan">Descubre la auténtica cocina criolla en cada bocado.</p>
 
     </header>
 
-    <main class="container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In cum reiciendis sed nisi rerum eos tempore, alias
-            dolore a quae! Repellat aliquam, unde harum aliquid qui cupiditate deleniti minima vero.</p>
-        <section>
-            <h2>Contactanos!!</h2>
-            <form class="formulario">
+    <main class="main row maincontacto">
+        <p class="maincontacto__textopresentacion col-lg-6">En nuestra página de contacto, te brindamos la oportunidad de comunicarte con nosotros y descubrir más sobre nuestros
+        servicios gastronómicos. Si estás interesado en disfrutar de los auténticos sabores de Argentina, organizar un evento
+        culinario inolvidable o participar en nuestras Masterclass de cocina tradicional, ¡estamos aquí para ayudarte!
+        
+        Nuestro equipo está listo para responder a todas tus preguntas, brindarte asesoramiento personalizado y ayudarte a
+        planificar tu próxima experiencia gastronómica. Ya sea que desees obtener más información sobre nuestro menú, solicitar
+        un presupuesto para un evento especial o reservar una mesa en nuestro local, estamos comprometidos en hacer de tu
+        experiencia con Sabores Criollos algo excepcional.
+        
+        ¡No dudes en contactarnos! Estamos ansiosos por escucharte y ser parte de tus momentos especiales.</p>
+        <section class=" formulario col-lg-6">
+            <h2 class="formulario__titulo">Contactanos!!</h2>
+            <form class="form">
                 <fieldset>
-                    <legend>
+                    <legend class="formulario__legend">
                         Envianos tu consulta llenando todos los campos.
                     </legend>
-                    <div class="container-campos">
+                    <div class=" row">
 
-                        <div class="campo1">
-                            <label for=" name">Nombre</label><input type="text" id="name" required
+                        <div class="formulario__campo col-lg-12 ">
+                            <label class="formulario__label formulario__texto-bold" for="name">Nombre</label><input class="formulario__input" type="text" id="name" required
                                 placeholder="Ingresa tu nombre">
                         </div>
-                        <div class="campo2">
-                            <label for=" email">Email</label><input type="email" name="email" id="email" required
+                        <div class="formulario__campo col-lg-12 ">
+                            <label class="formulario__label formulario__texto-bold" for=" email">Email</label><input class="formulario__input" type="email" name="email" id="email" required
                                 placeholder="Ingresa tu correo">
                         </div>
-                        <div class="campo3">
-                            <p>¿Por qué te Comunicas?</p>
-                            <label for="motivo1">Presentar una sugerencia</label><input id="motivo1" type="radio"
-                                name="motivo" id="">
-                            <label for="motivo2">Solicitar un presupuesto</label><input id="motivo2" type="radio"
-                                name="motivo" id="">
-                            <label for="motivo3">Consultar fechas disponibles</label><input id="motivo3" type="radio"
-                                name="motivo" id="">
+                        <div class="formulario__campo col-lg-12 ">
+                            <p class="formulario__texto formulario__texto-bold">¿Por qué te Comunicas?</p>
+                            <div>
+                                <label class="formulario__label" for="motivo1">Presentar una sugerencia</label><input id="motivo1" type="radio"
+                                    name="motivo" id="">
+                            </div>
+                            <div>
+                                <label class="formulario__label" for="motivo2">Solicitar un presupuesto</label><input id="motivo2" type="radio"
+                                    name="motivo" id="">
+                            </div>
+                            <div>
+                                <label class="formulario__label" for="motivo3">Consultar fechas disponibles</label><input id="motivo3"
+                                    type="radio" name="motivo" id="">
+                            </div>
                         </div>
-                        <div class="campo4">
-                            <label for="">¿Dónde nos conociste?</label>
-                            <select name="" id="">
+                        <div class="formulario__campo col-lg-12 ">
+                            <p class="formulario__texto formulario__texto-bold" for="">¿Dónde nos conociste?</p>
+                            <select class="formulario__select" name="" id="">
                                 <option value="">Redes Sociales</option>
                                 <option value="">Recomendaciones</option>
                                 <option value="">Los escuche el la radio</option>
 
                             </select>
                         </div>
-                        <div class="campo5">
-                            <label for="">Quiero recibir noticias sobre eventos y promociones </label><input
-                                type="checkbox" name="" id="">
-                        </div>
-                        <div class="campo6">
+                        <div class="formulario__campo col-lg-12">
+                            <div>
+                                <label class="formulario__label formulario__texto-bold" for="permiso">Quiero recibir noticias sobre eventos y promociones
+                                    <input type="checkbox" name="permiso" id="permiso">
+                                </label>
+                                
+                            </div>
+
                             <label for=""></label>
-                            <textarea name="" id="" cols=" 30" rows="10"
+                            <textarea class="formulario__textarea" name="" id="" cols=" 30" rows="10"
                                 placeholder="cuentanos mas sobre tus dudas!"></textarea>
                         </div>
-                    </div> <!-- Contenedor de los campos-->
-                    </div>
-                    <div class="submit">
-                        <input type="submit" value="Enviar">
+                        <div class=" submit">
+                            <input class="btn btn-primary formulario__boton"  type="submit" value="Enviar">
+                        </div>
+                    </div> <!- - Contenedor de los campos-->
                     </div>
 
                 </fieldset>
@@ -92,18 +134,49 @@
 
     </main>
 
-    <div class="footer-bg">
-        <footer>
-            <img src="../img/copyrigth.png" alt="copyrigth">
-            <span>Todos los derechos reservados</span>
-            <a href="#"><img src="../img/facebook.png" alt="facebook"></a>
-            <a href="#"><img src="../img/instagram.png" alt="instagram"></a>
-            <a href="#"><img src="../img/github.png" alt="github"></a>
-            <a href="#"><img src="../img/whatsapp-logo_icon-icons.com_57054.png" alt="whatsapp"></a>
+    <footer class="footer container-fluid ">
+        <div class="row p5 bg-secondary text-white">
+            <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <p class="h3">sabores criollos</p>
+                <div class="mb-2">
+                    <p>Forrmosa - Formosa</p>
+                </div>
 
-        </footer>
-    </div>
-    <script src="./estilos/bootstrap/bootstrap.bundle.min.js"></script>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <p class="h3 mb-3">links</p>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none " href="">home</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none " href="">contacto</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none " href="">productos</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none " href="">servicios</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-white text-decoration-none " href="">sobre nosotros</a>
+                </div>
+            </div>
+            <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="row">
+                    <p class="h3 mb-3 text">redes</p>
+                    <div class="mb-2 "><a href="#"><i class="textbi bi-instagram rock"></i></a></div>
+                    <div class="mb-2 "><a href="#"><i class="textbi bi-whatsapp"></i></a></div>
+                    <div class="mb-2 "><a href="#"><i class="textbi bi-whatsapp"></i></a></div>
+                </div>
+            </div>
+            <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <p class="h3 mb-3">contacto</p>
+                <p class="mb-2">saborescriollos@gmail.com</p>
+                <p class="mb-2">+ 543704123456</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../estilos/bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 

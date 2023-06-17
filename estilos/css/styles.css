@@ -160,3 +160,43 @@ body {
   .mainservicios .servicios:hover {
     border: solid #0d6dfd3a 2px;
     background-color: var(--color-fondo-hover); }
+
+.maincontacto__textopresentacion {
+  padding: 2rem 1rem;
+  font-size: 1.8rem;
+  line-height: 3rem; }
+
+.maincontacto .formulario {
+  margin-bottom: 3rem; }
+  .maincontacto .formulario__titulo {
+    font-size: 3rem;
+    text-align: center; }
+  .maincontacto .formulario__legend {
+    text-align: center; }
+  .maincontacto .formulario__campo {
+    margin-bottom: 2rem; }
+  .maincontacto .formulario__label {
+    font-size: 2rem;
+    margin-right: 1rem; }
+  .maincontacto .formulario__input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px; }
+  .maincontacto .formulario__texto {
+    font-size: 2rem; }
+  .maincontacto .formulario__texto-bold {
+    font-weight: bold; }
+  .maincontacto .formulario__select {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px; }
+  .maincontacto .formulario__textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px; }
+  .maincontacto .formulario__boton {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    display: block;
+    margin: 1rem auto; }
